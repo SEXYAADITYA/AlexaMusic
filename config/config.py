@@ -18,22 +18,22 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "16051908"))
+API_HASH = getenv("API_HASH", "abf9b83f9ca40cf9f5ba9bf6e6afaa8b")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5704393118:AAGuUyVNJ8ZpyhuAy_H8SvpC7oclJMhxaqo")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://starxrobo:starxrobo@cluster0.efstcnr.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001713781379"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TDN MUSIC BOT")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5307865914").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
@@ -49,8 +49,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None)
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", None)
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/THE_DRAGON_NETWORK_OFFICIAL")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TDN_CHAT")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 
@@ -70,8 +70,8 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 GITHUB_REPO = getenv("GITHUB_REPO", None)
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2551d55ea1fe4a57995bb5f16de02fec")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c31252ffc3be4a72a9ab4cb2bb2d085e")
 
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
 
@@ -86,7 +86,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQB8ff_yhz8EOoE2bkRuBo8JCcEXN7rJnZGzPQL65w_UtTXP6ekX3psqbvVBj17F-N2sme-r910TK4NuByi0v-st-g1gheoceooqGYp9CCK3j1Te6DfdLDwm0dgd7BS8ENWyTWfNYGeXILAxd-pa9bhD1x1Kxc9aQw_UcpwFm3RNYDJEwdrWWFxM4GvpZTJ2ApGeC1jO2i4XnfVn6JgkGn7YNLkt5C8H2Lf9X2vVoxki7lMyw1ShIlXBHBc2-DPlOK-JoMjY3lSqjyQ8ZAvI5IECK5rNT9K93vD4OjnqoEEteBVf4XG2x1MlFvOK0gcE8pe_g6VYgOazDeaBKX9Ee7OnAAAAAUcHoOAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -105,12 +105,12 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/f6064bc90cc76e59015b2.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/ead6fd17a560203a28f0c.jpg"
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Ping.jpeg",
+    "https://te.legra.ph/file/ead6fd17a560203a28f0c.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
