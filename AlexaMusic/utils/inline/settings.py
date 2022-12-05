@@ -31,7 +31,7 @@ def setting_markup(_):
         [
             InlineKeyboardButton(
                 text="• Sᴜᴩᴩᴏʀᴛ •",
-                url="tdn_chat",
+                url="https://t.me/tdn_chat",
             ),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ],
